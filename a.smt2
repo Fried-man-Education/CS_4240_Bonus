@@ -66,8 +66,208 @@
 (declare-fun lam5n6 () Int)
 (declare-fun lam5n7 () Int)
 (declare-fun lam5n8 () Int)
-(assert (and (<= (- 1) Nl40a!1052^01) (<= Nl40a!1052^01 1) (<= (- 1) Nl40head!16^01) (<= Nl40head!16^01 1) (<= (- 1) Nl40sdv_CALLSITE_RETURN_1!14^01) (<= Nl40sdv_CALLSITE_RETURN_1!14^01 1) (<= (- 1) Nl40x!15^01) (<= Nl40x!15^01 1) (<= (- 1) Nl40a!1052^02) (<= Nl40a!1052^02 1) (<= (- 1) Nl40head!16^02) (<= Nl40head!16^02 1) (<= (- 1) Nl40sdv_CALLSITE_RETURN_1!14^02) (<= Nl40sdv_CALLSITE_RETURN_1!14^02 1) (<= (- 1) Nl40x!15^02) (<= Nl40x!15^02 1)))
-(assert (or (and (<= (+ 1 (* (- 1) head!16^0) x!15^0) 0) (<= (+ 1 (* (- 1) x!15^0)) 0) (<= (+ 2 (* (- 1) a!244^0)) 0) (not (<= (+ (- 1) head!16^0) 0)) (<= (+ 2 (* (- 1) sdv_CALLSITE_RETURN_1!14^0)) 0) (<= (+ 2 (* (- 1) undef4761)) 0) (= (+ (* (- 1) sel_r!543_Flink!24^0) x!15^0) 0) (<= (+ Nl40CT1 (* (+ 0 Nl40a!1052^01) a!1052^0) (* (+ 0 Nl40head!16^01) head!16^0) (* (+ 0 Nl40sdv_CALLSITE_RETURN_1!14^01) sdv_CALLSITE_RETURN_1!14^0) (* (+ 0 Nl40x!15^01) x!15^0)) 0) (<= (+ Nl40CT2 (* (+ 0 Nl40a!1052^02) a!1052^0) (* (+ 0 Nl40head!16^02) head!16^0) (* (+ 0 Nl40sdv_CALLSITE_RETURN_1!14^02) sdv_CALLSITE_RETURN_1!14^0) (* (+ 0 Nl40x!15^02) x!15^0)) 0)) (and (<= (+ 1 head!16^0 (* (- 1) x!15^0)) 0) (<= (+ 1 (* (- 1) x!15^0)) 0) (<= (+ 2 (* (- 1) a!244^0)) 0) (not (<= (+ (- 1) head!16^0) 0)) (<= (+ 2 (* (- 1) sdv_CALLSITE_RETURN_1!14^0)) 0) (<= (+ 2 (* (- 1) undef4761)) 0) (= (+ (* (- 1) sel_r!543_Flink!24^0) x!15^0) 0) (<= (+ Nl40CT1 (* (+ 0 Nl40a!1052^01) a!1052^0) (* (+ 0 Nl40head!16^01) head!16^0) (* (+ 0 Nl40sdv_CALLSITE_RETURN_1!14^01) sdv_CALLSITE_RETURN_1!14^0) (* (+ 0 Nl40x!15^01) x!15^0)) 0) (<= (+ Nl40CT2 (* (+ 0 Nl40a!1052^02) a!1052^0) (* (+ 0 Nl40head!16^02) head!16^0) (* (+ 0 Nl40sdv_CALLSITE_RETURN_1!14^02) sdv_CALLSITE_RETURN_1!14^0) (* (+ 0 Nl40x!15^02) x!15^0)) 0))))
-(assert (or (or (and (>= lam4n0 0) (>= lam4n1 0) (>= lam4n2 0) (>= lam4n3 0) (>= lam4n4 0) (>= lam4n5 0) (>= lam4n6 0) (>= lam4n7 0) (>= lam4n8 0) (> (+ (* 1 lam4n0) (* 1 lam4n1) (* 1 lam4n2) (* 1 lam4n3) (* 1 lam4n4) (* 2 lam4n5) (* 2 lam4n6) (* Nl40CT1 lam4n7) (* Nl40CT2 lam4n8) (- 1)) 0) (= (+ (* (- 1) lam4n0) (* Nl40a!1052^01 lam4n7) (* Nl40a!1052^02 lam4n8)) 0) (= (+ (* (- 1) lam4n1) (* (- 1) lam4n2) (* Nl40head!16^01 lam4n7) (* Nl40head!16^02 lam4n8)) 0) (= (+ (* (- 1) lam4n5) (* Nl40sdv_CALLSITE_RETURN_1!14^01 lam4n7) (* Nl40sdv_CALLSITE_RETURN_1!14^02 lam4n8)) 0) (= (+ (* (- 1) lam4n3) (* Nl40x!15^01 lam4n7) (* Nl40x!15^02 lam4n8)) 0) (= (* (- 1) lam4n6) 0) (= (+ (* 1 lam4n2) (* 1 lam4n4)) 0)) (and (>= lam5n0 0) (>= lam5n1 0) (>= lam5n2 0) (>= lam5n3 0) (>= lam5n4 0) (>= lam5n5 0) (>= lam5n6 0) (>= lam5n7 0) (>= lam5n8 0) (> (+ (* 1 lam5n0) (* 1 lam5n1) (* 1 lam5n2) (* 1 lam5n3) (* 1 lam5n4) (* 2 lam5n5) (* 2 lam5n6) (* Nl40CT1 lam5n7) (* Nl40CT2 lam5n8) 2) 0) (= (+ (* (- 1) lam5n0) (* Nl40a!1052^01 lam5n7) (* Nl40a!1052^02 lam5n8)) 0) (= (+ (* (- 1) lam5n1) (* (- 1) lam5n2) (* Nl40head!16^01 lam5n7) (* Nl40head!16^02 lam5n8) (- 1)) 0) (= (+ (* (- 1) lam5n5) (* Nl40sdv_CALLSITE_RETURN_1!14^01 lam5n7) (* Nl40sdv_CALLSITE_RETURN_1!14^02 lam5n8)) 0) (= (+ (* (- 1) lam5n3) (* Nl40x!15^01 lam5n7) (* Nl40x!15^02 lam5n8)) 0) (= (* (- 1) lam5n6) 0) (= (+ (* 1 lam5n2) (* 1 lam5n4)) 0))) (and (or (and (<= (+ 1 (* (- 1) head!16^0) x!15^0) 0) (<= (+ 1 (* (- 1) x!15^0)) 0) (<= (+ 2 (* (- 1) a!244^0)) 0) (not (<= (+ (- 1) head!16^0) 0)) (<= (+ 2 (* (- 1) sdv_CALLSITE_RETURN_1!14^0)) 0) (<= (+ 2 (* (- 1) undef4761)) 0) (= (+ (* (- 1) sel_r!543_Flink!24^0) x!15^0) 0) (<= (+ Nl40CT1 (* (+ 0 Nl40a!1052^01) a!1052^0) (* (+ 0 Nl40head!16^01) head!16^0) (* (+ 0 Nl40sdv_CALLSITE_RETURN_1!14^01) sdv_CALLSITE_RETURN_1!14^0) (* (+ 0 Nl40x!15^01) x!15^0)) 0) (<= (+ Nl40CT2 (* (+ 0 Nl40a!1052^02) a!1052^0) (* (+ 0 Nl40head!16^02) head!16^0) (* (+ 0 Nl40sdv_CALLSITE_RETURN_1!14^02) sdv_CALLSITE_RETURN_1!14^0) (* (+ 0 Nl40x!15^02) x!15^0)) 0)) (and (<= (+ 1 head!16^0 (* (- 1) x!15^0)) 0) (<= (+ 1 (* (- 1) x!15^0)) 0) (<= (+ 2 (* (- 1) a!244^0)) 0) (not (<= (+ (- 1) head!16^0) 0)) (<= (+ 2 (* (- 1) sdv_CALLSITE_RETURN_1!14^0)) 0) (<= (+ 2 (* (- 1) undef4761)) 0) (= (+ (* (- 1) sel_r!543_Flink!24^0) x!15^0) 0) (<= (+ Nl40CT1 (* (+ 0 Nl40a!1052^01) a!1052^0) (* (+ 0 Nl40head!16^01) head!16^0) (* (+ 0 Nl40sdv_CALLSITE_RETURN_1!14^01) sdv_CALLSITE_RETURN_1!14^0) (* (+ 0 Nl40x!15^01) x!15^0)) 0) (<= (+ Nl40CT2 (* (+ 0 Nl40a!1052^02) a!1052^0) (* (+ 0 Nl40head!16^02) head!16^0) (* (+ 0 Nl40sdv_CALLSITE_RETURN_1!14^02) sdv_CALLSITE_RETURN_1!14^0) (* (+ 0 Nl40x!15^02) x!15^0)) 0))) false)))
+(assert
+  (and
+    (<= (- 1) Nl40a!1052^01)
+    (<= Nl40a!1052^01 1)
+    (<= (- 1) Nl40head!16^01)
+    (<= Nl40head!16^01 1)
+    (<= (- 1) Nl40sdv_CALLSITE_RETURN_1!14^01)
+    (<= Nl40sdv_CALLSITE_RETURN_1!14^01 1)
+    (<= (- 1) Nl40x!15^01)
+    (<= Nl40x!15^01 1)
+    (<= (- 1) Nl40a!1052^02)
+    (<= Nl40a!1052^02 1)
+    (<= (- 1) Nl40head!16^02)
+    (<= Nl40head!16^02 1)
+    (<= (- 1) Nl40sdv_CALLSITE_RETURN_1!14^02)
+    (<= Nl40sdv_CALLSITE_RETURN_1!14^02 1)
+    (<= (- 1) Nl40x!15^02)
+    (<= Nl40x!15^02 1)))
+(assert
+  (or
+    (and
+      (<= (+ 1 (* (- 1) head!16^0) x!15^0) 0)
+      (<= (+ 1 (* (- 1) x!15^0)) 0)
+      (<= (+ 2 (* (- 1) a!244^0)) 0)
+      (not (<= (+ (- 1) head!16^0) 0))
+      (<= (+ 2 (* (- 1) sdv_CALLSITE_RETURN_1!14^0)) 0)
+      (<= (+ 2 (* (- 1) undef4761)) 0)
+      (= (+ (* (- 1) sel_r!543_Flink!24^0) x!15^0) 0)
+      (<=
+        (+
+          Nl40CT1
+          (* (+ 0 Nl40a!1052^01) a!1052^0)
+          (* (+ 0 Nl40head!16^01) head!16^0)
+          (* (+ 0 Nl40sdv_CALLSITE_RETURN_1!14^01) sdv_CALLSITE_RETURN_1!14^0)
+          (* (+ 0 Nl40x!15^01) x!15^0))
+        0)
+      (<=
+        (+
+          Nl40CT2
+          (* (+ 0 Nl40a!1052^02) a!1052^0)
+          (* (+ 0 Nl40head!16^02) head!16^0)
+          (* (+ 0 Nl40sdv_CALLSITE_RETURN_1!14^02) sdv_CALLSITE_RETURN_1!14^0)
+          (* (+ 0 Nl40x!15^02) x!15^0))
+        0))
+    (and
+      (<= (+ 1 head!16^0 (* (- 1) x!15^0)) 0)
+      (<= (+ 1 (* (- 1) x!15^0)) 0)
+      (<= (+ 2 (* (- 1) a!244^0)) 0)
+      (not (<= (+ (- 1) head!16^0) 0))
+      (<= (+ 2 (* (- 1) sdv_CALLSITE_RETURN_1!14^0)) 0)
+      (<= (+ 2 (* (- 1) undef4761)) 0)
+      (= (+ (* (- 1) sel_r!543_Flink!24^0) x!15^0) 0)
+      (<=
+        (+
+          Nl40CT1
+          (* (+ 0 Nl40a!1052^01) a!1052^0)
+          (* (+ 0 Nl40head!16^01) head!16^0)
+          (* (+ 0 Nl40sdv_CALLSITE_RETURN_1!14^01) sdv_CALLSITE_RETURN_1!14^0)
+          (* (+ 0 Nl40x!15^01) x!15^0))
+        0)
+      (<=
+        (+
+          Nl40CT2
+          (* (+ 0 Nl40a!1052^02) a!1052^0)
+          (* (+ 0 Nl40head!16^02) head!16^0)
+          (* (+ 0 Nl40sdv_CALLSITE_RETURN_1!14^02) sdv_CALLSITE_RETURN_1!14^0)
+          (* (+ 0 Nl40x!15^02) x!15^0))
+        0))))
+(assert
+  (or
+    (or
+      (and
+        (>= lam4n0 0)
+        (>= lam4n1 0)
+        (>= lam4n2 0)
+        (>= lam4n3 0)
+        (>= lam4n4 0)
+        (>= lam4n5 0)
+        (>= lam4n6 0)
+        (>= lam4n7 0)
+        (>= lam4n8 0)
+        (>
+          (+
+            (* 1 lam4n0)
+            (* 1 lam4n1)
+            (* 1 lam4n2)
+            (* 1 lam4n3)
+            (* 1 lam4n4)
+            (* 2 lam4n5)
+            (* 2 lam4n6)
+            (* Nl40CT1 lam4n7)
+            (* Nl40CT2 lam4n8)
+            (- 1))
+          0)
+        (= (+ (* (- 1) lam4n0) (* Nl40a!1052^01 lam4n7) (* Nl40a!1052^02 lam4n8)) 0)
+        (=
+          (+
+            (* (- 1) lam4n1)
+            (* (- 1) lam4n2)
+            (* Nl40head!16^01 lam4n7)
+            (* Nl40head!16^02 lam4n8))
+          0)
+        (=
+          (+
+            (* (- 1) lam4n5)
+            (* Nl40sdv_CALLSITE_RETURN_1!14^01 lam4n7)
+            (* Nl40sdv_CALLSITE_RETURN_1!14^02 lam4n8))
+          0)
+        (= (+ (* (- 1) lam4n3) (* Nl40x!15^01 lam4n7) (* Nl40x!15^02 lam4n8)) 0)
+        (= (* (- 1) lam4n6) 0)
+        (= (+ (* 1 lam4n2) (* 1 lam4n4)) 0))
+      (and
+        (>= lam5n0 0)
+        (>= lam5n1 0)
+        (>= lam5n2 0)
+        (>= lam5n3 0)
+        (>= lam5n4 0)
+        (>= lam5n5 0)
+        (>= lam5n6 0)
+        (>= lam5n7 0)
+        (>= lam5n8 0)
+        (>
+          (+
+            (* 1 lam5n0)
+            (* 1 lam5n1)
+            (* 1 lam5n2)
+            (* 1 lam5n3)
+            (* 1 lam5n4)
+            (* 2 lam5n5)
+            (* 2 lam5n6)
+            (* Nl40CT1 lam5n7)
+            (* Nl40CT2 lam5n8)
+            2)
+          0)
+        (= (+ (* (- 1) lam5n0) (* Nl40a!1052^01 lam5n7) (* Nl40a!1052^02 lam5n8)) 0)
+        (=
+          (+
+            (* (- 1) lam5n1)
+            (* (- 1) lam5n2)
+            (* Nl40head!16^01 lam5n7)
+            (* Nl40head!16^02 lam5n8)
+            (- 1))
+          0)
+        (=
+          (+
+            (* (- 1) lam5n5)
+            (* Nl40sdv_CALLSITE_RETURN_1!14^01 lam5n7)
+            (* Nl40sdv_CALLSITE_RETURN_1!14^02 lam5n8))
+          0)
+        (= (+ (* (- 1) lam5n3) (* Nl40x!15^01 lam5n7) (* Nl40x!15^02 lam5n8)) 0)
+        (= (* (- 1) lam5n6) 0)
+        (= (+ (* 1 lam5n2) (* 1 lam5n4)) 0)))
+    (and
+      (or
+        (and
+          (<= (+ 1 (* (- 1) head!16^0) x!15^0) 0)
+          (<= (+ 1 (* (- 1) x!15^0)) 0)
+          (<= (+ 2 (* (- 1) a!244^0)) 0)
+          (not (<= (+ (- 1) head!16^0) 0))
+          (<= (+ 2 (* (- 1) sdv_CALLSITE_RETURN_1!14^0)) 0)
+          (<= (+ 2 (* (- 1) undef4761)) 0)
+          (= (+ (* (- 1) sel_r!543_Flink!24^0) x!15^0) 0)
+          (<=
+            (+
+              Nl40CT1
+              (* (+ 0 Nl40a!1052^01) a!1052^0)
+              (* (+ 0 Nl40head!16^01) head!16^0)
+              (* (+ 0 Nl40sdv_CALLSITE_RETURN_1!14^01) sdv_CALLSITE_RETURN_1!14^0)
+              (* (+ 0 Nl40x!15^01) x!15^0))
+            0)
+          (<=
+            (+
+              Nl40CT2
+              (* (+ 0 Nl40a!1052^02) a!1052^0)
+              (* (+ 0 Nl40head!16^02) head!16^0)
+              (* (+ 0 Nl40sdv_CALLSITE_RETURN_1!14^02) sdv_CALLSITE_RETURN_1!14^0)
+              (* (+ 0 Nl40x!15^02) x!15^0))
+            0))
+        (and
+          (<= (+ 1 head!16^0 (* (- 1) x!15^0)) 0)
+          (<= (+ 1 (* (- 1) x!15^0)) 0)
+          (<= (+ 2 (* (- 1) a!244^0)) 0)
+          (not (<= (+ (- 1) head!16^0) 0))
+          (<= (+ 2 (* (- 1) sdv_CALLSITE_RETURN_1!14^0)) 0)
+          (<= (+ 2 (* (- 1) undef4761)) 0)
+          (= (+ (* (- 1) sel_r!543_Flink!24^0) x!15^0) 0)
+          (<=
+            (+
+              Nl40CT1
+              (* (+ 0 Nl40a!1052^01) a!1052^0)
+              (* (+ 0 Nl40head!16^01) head!16^0)
+              (* (+ 0 Nl40sdv_CALLSITE_RETURN_1!14^01) sdv_CALLSITE_RETURN_1!14^0)
+              (* (+ 0 Nl40x!15^01) x!15^0))
+            0)
+          (<=
+            (+
+              Nl40CT2
+              (* (+ 0 Nl40a!1052^02) a!1052^0)
+              (* (+ 0 Nl40head!16^02) head!16^0)
+              (* (+ 0 Nl40sdv_CALLSITE_RETURN_1!14^02) sdv_CALLSITE_RETURN_1!14^0)
+              (* (+ 0 Nl40x!15^02) x!15^0))
+            0)))
+      false)))
 (check-sat)
 (exit)
